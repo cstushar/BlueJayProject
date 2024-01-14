@@ -1,0 +1,57 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v3.3.0-SNAPSHOT)
+
+2024-01-14T13:33:16.600+05:30  INFO 2160 --- [  restartedMain] com.demo.YourApplication                 : Starting YourApplication using Java 17.0.7 with PID 2160 (D:\myworkspce\BlueJayProject\target\classes started by cstus in D:\myworkspce\BlueJayProject)
+2024-01-14T13:33:16.669+05:30  INFO 2160 --- [  restartedMain] com.demo.YourApplication                 : No active profile set, falling back to 1 default profile: "default"
+2024-01-14T13:33:17.090+05:30  INFO 2160 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-14T13:33:17.091+05:30  INFO 2160 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-14T13:33:19.550+05:30  INFO 2160 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-14T13:33:19.662+05:30  INFO 2160 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interface.
+2024-01-14T13:33:21.806+05:30  INFO 2160 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-14T13:33:21.832+05:30  INFO 2160 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-14T13:33:21.837+05:30  INFO 2160 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-14T13:33:22.005+05:30  INFO 2160 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-14T13:33:22.011+05:30  INFO 2160 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4913 ms
+2024-01-14T13:33:22.410+05:30  INFO 2160 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-14T13:33:23.142+05:30  INFO 2160 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4da84142
+2024-01-14T13:33:23.146+05:30  INFO 2160 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-14T13:33:23.169+05:30  INFO 2160 --- [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/bluejay'
+2024-01-14T13:33:23.847+05:30  INFO 2160 --- [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-14T13:33:24.036+05:30  INFO 2160 --- [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-14T13:33:24.139+05:30  INFO 2160 --- [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-14T13:33:24.752+05:30  INFO 2160 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-14T13:33:24.923+05:30  WARN 2160 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-14T13:33:24.925+05:30  WARN 2160 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-01-14T13:33:26.925+05:30  INFO 2160 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-14T13:33:27.092+05:30  INFO 2160 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-14T13:33:28.147+05:30  WARN 2160 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-14T13:33:30.067+05:30  INFO 2160 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-14T13:33:30.146+05:30  INFO 2160 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-01-14T13:33:30.361+05:30  INFO 2160 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-01-14T13:33:30.404+05:30  INFO 2160 --- [  restartedMain] com.demo.YourApplication                 : Started YourApplication in 14.755 seconds (process running for 15.96)
+Parsing from Execl sheet::
+Parsing Completed
+Saving the data in DB is completed
+Analysing the data !!!!
+
+Employee with File Number: 000065 has worked for 7 consecutive days.
+
+Employee with File Number: 000153 has less than 10.0 hours but more than 1.0 hours between shifts.
+Employee with File Number: 000200 has less than 10.0 hours but more than 1.0 hours between shifts.
+Employee with File Number: 000318 has less than 10.0 hours but more than 1.0 hours between shifts.
+Employee with File Number: 000345 has less than 10.0 hours but more than 1.0 hours between shifts.
+Employee with File Number: 000456 has less than 10.0 hours but more than 1.0 hours between shifts.
+Employee with File Number: 000523 has less than 10.0 hours but more than 1.0 hours between shifts.
+Employee with File Number: 000536 has less than 10.0 hours but more than 1.0 hours between shifts.
+Employee with File Number: 000550 has less than 10.0 hours but more than 1.0 hours between shifts.
+Employee with File Number: 000576 has less than 10.0 hours but more than 1.0 hours between shifts.
+
+Employee with File Number: 000523 has worked for more than 14 hours in a single shift.
+
+Analysis Completed, Program stopped
